@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-image: linear-gradient(180deg, #9d00d4, #000000);
+    background-attachment: fixed;
+}
+
+main {
+    position: absolute;
+    background-color: #d9d9d9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 15px;
+    font-weight: 500;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.titulo span {
+    font-size: 16px;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+
+.conteudo-cima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 17px;
+    /* background-color: blue; */
+    border-bottom: solid 3px black;
+}
+
+.email input, .senha input, .confirmarSenha input {
+    width: 260px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #b9b9b9;
+    border: none;
+    outline: none;
+}
+
+#botao-entrar {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(90deg, #bd00ff, #723786, #bd00ff);
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#botao-entrar:hover {
+    background-image: linear-gradient(90deg, #e088ff, #723786, #e088ff);
+}
+
+.conteudo-baixo {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-baixo h2 {
+    font-size: 18px;
+}
+
+#botao-criar-conta {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(90deg, #256fff, #004ca5, #256fff);
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#botao-criar-conta:hover {
+    background-image: linear-gradient(90deg, #79a7ff, #004ca5, #79a7ff);
+}
+
+#contato {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+#contato:hover {
+    text-decoration: underline;
+}
+
+.conteudo-baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
