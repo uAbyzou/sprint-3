@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    
+}
+
+img{
+    width: 130px;
+    height: 130px;
+}
+
+.outrascompras{
+    text-align: center;
+    display: flex;
+    border-style: groove;
+    gap: 130px;
+}
+
+.outrascompras p{
+    display: flex;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
