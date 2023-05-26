@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
+/* geral */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* header */
 header{
     display: flex;
     flex-direction: row;
@@ -41,39 +43,13 @@ header a:hover {
     border-radius: 100px;
 }
 
-.main-cima {
-    /* background-color: rgb(91, 56, 56); */
-}
 
-.pesquisa input{
-    width: 350px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #B7B7B7;
-    border: none;
-    padding: 0px 5px 0px 5px;
-    outline: none;
-}
 
-.pesquisa img{
-    width: 35px;
-    height: 35px;
+/* main */
+main ul{
+    list-style: none;
 }
-
-.pesquisa a {
-    position: absolute;
-    left: 320px;
-    margin-top: 5px;
-}
-
-.ad-srool-vertical{
-    display: flex;
-    flex-direction: row;
-}
-
-.caixa-scrool {
-    width: 201px;
-    height: 132px;
-    background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
-    border-radius: 10px;
+main ul img{
+    width: 50px;
+    height: 50px;
 }
