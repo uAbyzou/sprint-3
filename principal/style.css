@@ -1,11 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5% 2px 5%;
+    background-color: #AB238D;
 }
+
 header ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 15px;
+    gap: 25px;
     
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.icon-header {
+    width: 41px;
+    height: 38px;
+}
+
+#perfil {
+    border-radius: 100px;
+}
+
+.main-cima {
+    /* background-color: rgb(91, 56, 56); */
+}
+
+.pesquisa input{
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #B7B7B7;
+    border: none;
+    padding: 0px 5px 0px 5px;
+    outline: none;
+}
+
+.pesquisa img{
+    width: 35px;
+    height: 35px;
+}
+
+.pesquisa a {
+    position: absolute;
+    left: 320px;
+    margin-top: 5px;
+}
+
+.ad-srool-vertical{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.scrool-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: scroll;
+    height: 280px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    /* background-color: blue; */
+}
+
+.caixa-scrool {
+    width: 196px;
+    min-height: 127px; /* faz com que a caixa não diminua o tamanho quando o scrool for menor */
+    background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.caixa-scrool label {
+    color: #fff;
+}
+
+.cu {
+    display: flex;
+    flex-direction: column;
+}
+
+#seta-cima {
+    transform: scaleX(-1);
 }
