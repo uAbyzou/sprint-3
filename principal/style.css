@@ -42,7 +42,16 @@ header a:hover {
 }
 
 .main-cima {
-    /* background-color: rgb(91, 56, 56); */
+    /* background-color: rgb(138, 41, 41); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
 }
 
 .pesquisa input{
@@ -56,20 +65,20 @@ header a:hover {
 }
 
 .pesquisa img{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 
 .pesquisa a {
-    position: absolute;
-    left: 320px;
-    margin-top: 5px;
+    margin-left: -40px;
+    
 }
 
 .ad-srool-vertical{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 15px;
 }
 
 .scrool-vertical {
@@ -92,6 +101,7 @@ header a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    margin-right: 2px;
 }
 
 .caixa-scrool label {
@@ -101,8 +111,72 @@ header a:hover {
 .cu {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-#seta-cima {
-    transform: scaleX(-1);
+.setas {
+    transition: all .8s;
+}
+
+::-webkit-scrollbar {
+    width: 5px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da área de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra de rolagem */
+}
+
+.scrool-horizontal {
+    background-color: #960C77;
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+    width: 90%;
+    overflow-x: scroll;
+    left: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.caixa-scrool-horizontal {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    min-width: 200px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.imagens-caixa {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.imagens-caixa img {
+    margin: auto;
+}
+
+.escrita {
+    line-height: 25px;
+    padding: 0px 10px 0px 10px;
+}
+
+.botao-comprar {
+    background-color: #FFD800;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.botao-comprar:hover {
+    background-color: #ffaa00;
 }
