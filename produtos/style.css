@@ -53,7 +53,9 @@ section{
     display: flex;
 }
 main{
-    border-radius: 8px;   
+    border-radius: 8px;
+    margin-left: 30px; 
+    margin-right: 30px;  
 }
 main ul{
     list-style: none;
@@ -64,18 +66,50 @@ main ul{
 main ul img{
     width: 50px;
     height: 50px;
-    
+    border: solid black 2px;
+    margin: 10px;
 }
 .main2{
-    width: 1000px;
+    width: 900px;
+    margin-left: 20px;
     /* background: black; */
+    gap: 10px;
 }
 .imagemPrincipal{
     display: flex;
     width: 350px;
     height: 350px;
+    border: solid black 2px;
+    margin: 10px;
 }
 .img-produtos{
     margin-top: 30px;
 
+}
+
+/* rolagem scroll */
+.rolagem {
+    /* position: absolute; */
+    /* background-color:white; */
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+    width: 90%;
+    overflow-x: scroll;
+    /* white-space: nowrap; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border: 1px solid black;
+    /* box-shadow: 0px 0px 5px 1px black; */
+    box-sizing: border-box;
+    margin-left: 20px;
+    width: 900px;
+}
+
+.caixa {
+    position: relative;
+    height: 250px;
+    min-width: 180px;
+    background-color: blueviolet;
 }
