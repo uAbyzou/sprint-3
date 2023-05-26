@@ -1,0 +1,83 @@
+/* GERAL */
+
+* {
+    font-family: 'Poppins', sans-serif; 
+}
+
+span {
+    color: red;
+}
+
+.opcional {
+    color: gray;
+}
+
+
+.texto {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.dois-linha{
+    display: flex;
+    gap: 25px;
+}
+/* GERAL */
+
+/* Parte de cima */
+.teto {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Parte de cima */
+
+.dados {
+    margin: 20px;
+}
+
+input {
+    width: 704px;
+    height: 62px;
+    border-radius: 10px;
+}
+
+.bairro input {
+    width: 1440px;
+}
+
+.ponto-de-referencia input{
+    width: 1440px;
+}
+
+.rua input{
+    width: 1440px;
+}
+
+/* Botão */
+.entrega {
+    display: flex;
+    background-color: #00A611;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration-line: none;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+/* Botão */
