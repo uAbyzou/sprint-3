@@ -69,11 +69,40 @@ header a:hover {
 .ad-srool-vertical{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.scrool-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: scroll;
+    height: 280px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    /* background-color: blue; */
 }
 
 .caixa-scrool {
-    width: 201px;
-    height: 132px;
+    width: 196px;
+    min-height: 127px; /* faz com que a caixa não diminua o tamanho quando o scrool for menor */
     background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.caixa-scrool label {
+    color: #fff;
+}
+
+.cu {
+    display: flex;
+    flex-direction: column;
+}
+
+#seta-cima {
+    transform: scaleX(-1);
 }
