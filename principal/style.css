@@ -57,7 +57,7 @@ header a:hover {
 .pesquisa input{
     width: 350px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #B7B7B7;
     border: none;
     padding: 0px 5px 0px 5px;
@@ -164,7 +164,7 @@ header a:hover {
 }
 
 .escrita {
-    line-height: 25px;
+    line-height: 25px; 
     padding: 0px 10px 0px 10px;
 }
 
@@ -179,4 +179,68 @@ header a:hover {
 
 .botao-comprar:hover {
     background-color: #ffaa00;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9B2781;
+    font-size: 13px;
+    margin-top: 45px;
+}
+
+.escrita-footer {
+    line-height: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.esquerda-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.esquerda-footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 13px;
+    margin-left:10px;
+}
+
+.esquerda-footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.esquerda-footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-social {
+    width: 28px;
+    height: 28px;
+}
+
+.links-social {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes-sociais {
+    margin-right: 15px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
 }
