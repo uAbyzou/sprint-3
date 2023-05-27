@@ -20,7 +20,8 @@ div{
 
 nav{
     flex-direction: column;
-    padding-left: 450px;
+    /* padding-left: 450px; */
+    background-color: red;
 }
 
 .barra{
