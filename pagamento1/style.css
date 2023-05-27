@@ -9,7 +9,9 @@
 
 section{
     display: flex;
-    align-items: center;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5% 2px 5%;
 }
 
 div{
@@ -19,9 +21,8 @@ div{
 }
 
 nav{
+    display: flex;
     flex-direction: column;
-    /* padding-left: 450px; */
-    background-color: red;
 }
 
 .barra{
@@ -42,4 +43,20 @@ li{
 }
 header{
     background-color: #AB238D;
+}
+
+.icon-header {
+    width: 41px;
+    height: 38px;
+}
+
+#perfil {
+    border-radius: 100px;
+}
+
+.icon-direita {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 25px;
 }
