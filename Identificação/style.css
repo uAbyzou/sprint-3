@@ -155,11 +155,16 @@ input {
     opacity: 50%;
 }
 
+.cep img:hover {
+    opacity: 100%;
+}
+
 .cep a {
     position: absolute;
     left: 700px;
     margin-top: 5px;
 }
+
 
 .ajuda {
     font-size: 11px;
@@ -244,6 +249,10 @@ input {
     text-decoration: none;
     color: white;
     margin-right: 110px;
+}
+
+.botao p:hover {
+        background-color: #024920;
 }
 
 /* Botão */
