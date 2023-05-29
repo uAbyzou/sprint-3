@@ -325,7 +325,7 @@ footer {
         justify-content: center;
     }
 
-    .hamburguer {
+    #menu-hamburguer {
         width: 24px;
         height: 24px;
         display: block;
@@ -445,7 +445,7 @@ footer {
     }
     
     footer {
-        position: absolute;
+        /* position: absolute; */
         top: 100%;
         display: flex;
         flex-direction: row;
