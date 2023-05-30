@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/Principal/LOGOSITE.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Style Records</title>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="imagens/Principal/LOGOSITE.png" alt="logo" width="60px" height="60px"></a>
+        <div class="div-logo">
+            <a href="index.html"><img src="imagens/Principal/LOGOSITE.png" alt="logo" width="60px" height="60px" id="logoSite"></a>
+        </div>
 
-        <ul>
+        <div class="div-hamburguer">
+            <a href="#"><img src="imagens/icons8-menu-arredondado-50.png" alt="hamburguer" class="hamburguer" id="menu-hamburguer"></a>
+        </div>
+
+        <ul class="menu" id="menu1">
             <li><a href="#">Acessórios</a></li>
             <li><a href="#">Perfumes</a></li>
             <li><a href="#">Acessórios de Pele</a></li>
@@ -21,10 +29,14 @@
             <li><a href="#">Marca</a></li>
             <li><a href="#">Géis</a></li>
             <li><a href="#">Loções</a></li>
+
+            <div class="div-X">
+                <a href="#"><img src="imagens/icons8-x-48.png" alt="X" id="fechar" class="fechar"></a>
+            </div>
         </ul>
 
         <div>
-            <ul>
+            <ul class="lista-icons-header">
                 <li><a href="#"><img src="imagens/Principal/coracao.png" alt="coracao" class="icon-header"></a></li>
                 <li><a href="#"><img src="imagens/Perfil.jpg" alt="perfil" class="icon-header" id="perfil"></a></li>
                 <li><a href="#"><img src="imagens/shopping-cart.png" alt="carrinho" class="icon-header"></a></li>
@@ -39,7 +51,7 @@
             </div>
 
             <div class="ad-srool-vertical">
-                <a href="#"><img src="imagens/Principal/propaganda.png" alt="AD" width="567px" height="276px"></a>
+                <a href="#"><img src="imagens/Principal/propaganda.png" alt="AD" width="567px" height="276px" id="propaganda"></a>
 
                 <div class="cu">
                     <a href="#caixa1" class="setas"><img src="imagens/Principal/setaCima.png" alt="seta para cima" height="30px"></a>
@@ -47,17 +59,17 @@
                     <div class="scrool-vertical">
                         <div class="caixa-scrool" id="caixa1">
                             <label>Cupons</label>
-                             <img src="imagens/Principal/desconto-icone.png" alt="cupom" width="100px" height="100px">
+                             <img src="imagens/Principal/desconto-icone.png" alt="cupom" width="100px" height="100px" id="desconto-icone">
                         </div>
 
                         <div class="caixa-scrool">
                             <label>Lojas Próximas</label>
-                            <img src="imagens/Principal/local.png" alt="lojas" width="70px" height="90px">
+                            <img src="imagens/Principal/local.png" alt="lojas" width="70px" height="90px" id="local-icone">
                         </div>
 
                         <div class="caixa-scrool" id="caixa3">
                             <label>Ofertas</label>
-                            <img src="imagens/Principal/cupom.png" alt="ofertas"  width="90px" height="90px">
+                            <img src="imagens/Principal/cupom.png" alt="ofertas"  width="90px" height="90px" id="cupom-icone">
                         </div>
                     </div>
 
@@ -256,5 +268,7 @@
             </nav>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -243,3 +243,228 @@ footer {
 .redes-sociais a:hover {
     text-decoration: underline;
 }
+
+.div-logo{
+    display: flex;
+    justify-content: center;
+    width: 173px;
+}
+
+#menu-hamburguer {
+    display: none;
+}
+
+.fechar {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    header ul {
+        gap: 15px;
+        height: 50px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-cima {
+        padding-top: 30px;
+    }
+
+    .div-logo {
+        width: 122.25px;
+    }
+
+    .lista-icons-header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icon-header {
+        width: 30.75px;
+        height: 28.5px;
+    }
+
+    #logoSite {
+        width: 45px;
+        height: 45px;
+    }
+    
+    /* menu do header */
+    .menu {
+        display: none;
+    }
+
+    .menu-ativado {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #960C77;
+        height: 300px;
+        width: 95%;
+        top: 0.5%;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 7px;
+        border: 1.5px solid #d108a5;
+    }
+
+    .desactive {
+        display: none;
+    }
+
+    .div-hamburguer {
+        display: flex;
+        width: 122.25px;
+        justify-content: center;
+    }
+
+    #menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #fechar {
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        filter: invert(100%);
+    }
+
+    .ad-srool-vertical {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #propaganda {
+        width: 283.5px;
+        height: 133.5px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
+
+    .pesquisa input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .caixa-scrool label {
+        font-size: 9px;
+    }
+
+    #desconto-icone {
+        height: 50px;
+        width: 50px;
+    }
+
+    #local-icone {
+        height: 45px;
+        width: 35px;
+    }
+
+    #cupom-icone{
+        height: 45px;
+        width: 45px;
+    }
+
+    .scrool-vertical {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        height: 74px;
+        white-space: nowrap;
+        box-sizing: border-box;
+        margin-bottom: 13%;
+    }
+
+    .caixa-scrool{
+        width: 98px;
+        min-height: 63.5px; /* faz com que a caixa não diminua o tamanho quando o scrool for menor */
+        max-height: 63.5px;
+        background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        margin-right: 2px;
+    }
+
+    .setas {
+        display: none;
+    }
+
+    .caixa-scrool-horizontal {
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        min-width: 150px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 7px;
+    }
+
+    /* ícone coração */
+    .caixa-scrool-horizontal a img {
+        height: 20px;
+        width: 20px;
+    }
+
+    /* imagem do produto */
+    .caixa-scrool-horizontal img {
+        height: 85px;
+        width: 85px;
+    }
+
+    .caixa-scrool-horizontal label {
+        font-size: 12px;
+    }
+
+    .botao-comprar {
+        margin-top: 7px;
+    }
+
+    .scrool-horizontal {
+        width: 95%;
+    }
+
+    .logo-social {
+        width: 14px;
+        height: 14px;
+    }
+    
+    footer {
+        /* position: absolute; */
+        top: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #9B2781;
+        font-size: 6px;
+        margin-top: 25px;
+    }
+
+    .esquerda-footer nav ul {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        font-size: 7px;
+        margin-left:10px;
+    }
+
+    .escrita-footer {
+        line-height: 10px;
+    }
+}
