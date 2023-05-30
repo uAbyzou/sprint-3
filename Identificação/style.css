@@ -86,18 +86,6 @@ header a:hover {
     margin-top: 5px;
 }
 
-.ad-srool-vertical{
-    display: flex;
-    flex-direction: row;
-}
-
-.caixa-scrool {
-    width: 201px;
-    height: 132px;
-    background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
-    border-radius: 10px;
-}
-
 /* HEADER */
 
 
