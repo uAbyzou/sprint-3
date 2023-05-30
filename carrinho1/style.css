@@ -86,12 +86,13 @@ header a:hover {
 .imagem-dos-produtos{
     width: 130px;
     height: 130px;
+    border-style: groove;
 }
+
 
 .outrascompras{
     text-align: center;
     display: flex;
-    border-style: groove;
     gap: 130px;
 }
 
