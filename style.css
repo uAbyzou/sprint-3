@@ -259,6 +259,34 @@ footer {
     display: none;
 }
 
+/* Menu que aparece quando clica na imagem de perfil */
+.menu-perfil {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #8f508b;
+    color: black;
+    top: 8%;
+    right: 6.3%;
+    padding: 25px;
+    border-radius: 5px;
+    height: 110px;
+}
+
+#fechar-perfil {
+    width: 19px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.desliga {
+    display: none;
+}
+
 @media (max-width: 992px) {
     header ul {
         gap: 15px;
