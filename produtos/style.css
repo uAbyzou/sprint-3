@@ -53,11 +53,16 @@ main{
     background: white;
     margin: 30px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;   
 }
 .mainEsquerda{
-    /* background: black; */
-    width: 1150px;
+    background: black;
+    width: 950px;
+}
+.encimaEsqueda{
     display: flex;
+    flex-direction: row;
 }
 .mainEsquerda ul{
     list-style: none;
@@ -86,7 +91,7 @@ main{
     display: flex;
     gap: 30px;
     padding: 20px;
-    width: 1150px;
+    width: 950px;
     overflow-x: scroll;
     /* white-space: nowrap; */
     /* top: 50%; */
@@ -133,4 +138,8 @@ main{
     list-style: none;
     gap: 3px;
     margin-top: 4px;
+}
+.encimaDireita{
+    margin-left: 50px;
+    margin-top: 20px;
 }
