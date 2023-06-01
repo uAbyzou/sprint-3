@@ -339,8 +339,6 @@ header a:hover {
     .teto {
         display: flex;
         gap: 535px;
-        margin-right: 0px;
-        margin-left: 0px;
     }
 
     .teto a {
@@ -356,6 +354,20 @@ header a:hover {
     .texto {
         font-size: 30px;
         margin-left: 145px;
+    }
+
+    @media (max-width: 992px) {
+        .teto p {
+            font-size: 20px;
+            margin-left: 95px;
+        }
+        .teto {
+            gap: 320px;
+        }
+        .texto {
+            font-size: 15px;
+            margin-left: 95px;
+        }
     }
 
     /* Parte de cima */
@@ -399,6 +411,28 @@ header a:hover {
         display: flex;
         margin-left: 155px;
         color: #00A611;
+    }
+
+    @media (max-width: 992px) {
+        input {
+            margin-left: 70px;
+            height: 40px;
+            border-radius: 10px;
+            width: 400px;
+        }
+
+        .cidade input {
+            margin-left: 150px;
+        }
+
+        .complemento input {
+            margin-left: 150px;
+        }
+
+        .cpf input {
+            margin-left: 150px;
+        }
+    
     }
 
     /* _____________________________________________________________ */
@@ -448,7 +482,20 @@ header a:hover {
 
     .rua input{
         width: 1224px;
-    
+        
+}
+@media (max-width: 992px) {
+    .bairro input{
+        width: 817px;
+    }
+
+    .ponto-de-referencia input{
+        width: 817px;
+    }
+
+    .rua input {
+        width: 817px;
+    }
 }
     /* Input maior */
 
