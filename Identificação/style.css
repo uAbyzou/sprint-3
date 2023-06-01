@@ -23,7 +23,6 @@ span {
 
 .dois-linha{
     display: flex;
-    gap: 25px;
 }
 /* GERAL */
 
@@ -337,124 +336,122 @@ header a:hover {
 /* ________________________________________________________ */
 /* Parte de cima */
 
-.teto {
-    display: flex;
-    gap: 515px;
-    margin-right: 0px;
-    margin-left: 0px;
-}
+    .teto {
+        display: flex;
+        gap: 535px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 
-.cadastrar {
-    margin-left: 50px;
-}
+    .teto a {
+        text-decoration: none;
+        color: black;
+    }
 
-.teto a {
-    text-decoration: none;
-    color: black;
-}
+    .teto p{
+        font-size: 30px;
+        margin-left: 155px;
+    }
 
-.teto p{
-    font-size: 30px;
-    margin-left: 85px;
-}
+    .texto {
+        font-size: 30px;
+        margin-left: 145px;
+    }
 
-.texto {
-    font-size: 30px;
-    margin-left: 85px;
-}
+    /* Parte de cima */
 
-/* Parte de cima */
-
-/* _____________________________________________________________ */
-/* Geral - Main */
+    /* _____________________________________________________________ */
+    /* Geral - Main */
 
 
-input {
-    width: 570px;
-    height: 40px;
-    border-radius: 10px;
-    margin-left: 85px;
-}
+    input {
+        width: 600px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left: 155px;
+    }
 
-.cep input{
-    width: 570px;
-    height: 40px;
-    border-radius: 10px;
-}
+    .cep input{
+        width: 600px;
+        height: 40px;
+        border-radius: 10px;
+    }
 
-.cep img{
-    width: 35px;
-    height: 35px;
-    opacity: 50%;
-}
+    .cep img{
+        width: 35px;
+        height: 35px;
+        opacity: 50%;
+    }
 
-.cep img:hover {
-    opacity: 100%;
-}
+    .cep img:hover {
+        opacity: 100%;
+    }
 
-.cep a {
-    position: absolute;
-    left: 615px;
-    margin-top: 5px;
-}
-
-
-.ajuda {
-    font-size: 11px;
-    display: flex;
-    margin-left: 88px;
-    color: #00A611;
-}
-
-/* _____________________________________________________________ */
-/* Espaço entre os items */
-.estado{
-    margin-top: 20px;
-}
-.cidade{
-    margin-top: 20px;
-    margin-left: -95px;
-}
-.numero{
-    margin-top: 20px;
-}
-.complemento{
-    margin-top: 20px;
-    margin-left: -95px;
-}
-.bairro {
-    margin-top: 20px;
-}
-.ponto-de-referencia {
-    margin-top: 20px;
-}
-.rua {
-    margin-top: 20px;
-}
-.nome {
-    margin-top: 20px;
-}
-.cpf{
-    margin-top: 20px;
-    margin-left: -95px;
-}
-
-/* _____________________________________________________________ */
-/* Input maior */
-.bairro input {
-    width: 1158px;
-}
+    .cep a {
+        position: absolute;
+        left: 715px;
+        margin-top: 5px;
+    }
 
 
-.ponto-de-referencia input{
-    width: 1158px;
-}
+    .ajuda {
+        font-size: 11px;
+        display: flex;
+        margin-left: 155px;
+        color: #00A611;
+    }
 
-.rua input{
-    width: 1158px;
-}
+    /* _____________________________________________________________ */
+    /* Espaço entre os items */
+    .estado{
+        margin-top: 20px;
+    }
+    .cidade{
+        margin-top: 20px;
+        margin-left: -135px;
+    }
+    .numero{
+        margin-top: 20px;
+    }
+    .complemento{
+        margin-top: 20px;
+        margin-left: -135px;
+    }
+    .bairro {
+        margin-top: 20px;
+    }
+    .ponto-de-referencia {
+        margin-top: 20px;
+    }
+    .rua {
+        margin-top: 20px;
+    }
+    .nome {
+        margin-top: 20px;
+    }
+    .cpf{
+        margin-top: 20px;
+        margin-left: -135px;
+    }
 
-/* Input maior */
+    /* _____________________________________________________________ */
+        
+    /* Input maior */
+    .bairro input {
+        width: 1224px;
+    }
+
+
+    .ponto-de-referencia input{
+        width: 1224px;
+    }
+
+    .rua input{
+        width: 1224px;
+    
+}
+    /* Input maior */
+
 
 
 
@@ -481,7 +478,6 @@ input {
     justify-content: center;
     text-decoration: none;
     color: white;
-    margin-right: 20px;
 }
 
 .botao p:hover {
