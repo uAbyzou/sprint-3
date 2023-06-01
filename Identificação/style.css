@@ -86,18 +86,6 @@ header a:hover {
     margin-top: 5px;
 }
 
-.ad-srool-vertical{
-    display: flex;
-    flex-direction: row;
-}
-
-.caixa-scrool {
-    width: 201px;
-    height: 132px;
-    background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
-    border-radius: 10px;
-}
-
 /* HEADER */
 
 
@@ -106,8 +94,8 @@ header a:hover {
 
 .teto {
     display: flex;
-    gap: 700px;
-    margin-right: 25px;
+    gap: 515px;
+    margin-right: 0px;
     margin-left: 0px;
 }
 
@@ -137,14 +125,14 @@ header a:hover {
 
 
 input {
-    width: 660px;
+    width: 570px;
     height: 40px;
     border-radius: 10px;
     margin-left: 85px;
 }
 
 .cep input{
-    width: 660px;
+    width: 570px;
     height: 40px;
     border-radius: 10px;
 }
@@ -161,7 +149,7 @@ input {
 
 .cep a {
     position: absolute;
-    left: 700px;
+    left: 615px;
     margin-top: 5px;
 }
 
@@ -209,16 +197,16 @@ input {
 /* _____________________________________________________________ */
 /* Input maior */
 .bairro input {
-    width: 1337px;
+    width: 1158px;
 }
 
 
 .ponto-de-referencia input{
-    width: 1337px;
+    width: 1158px;
 }
 
 .rua input{
-    width: 1337px;
+    width: 1158px;
 }
 
 /* Input maior */
@@ -248,7 +236,7 @@ input {
     justify-content: center;
     text-decoration: none;
     color: white;
-    margin-right: 110px;
+    margin-right: 20px;
 }
 
 .botao p:hover {
