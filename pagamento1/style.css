@@ -93,6 +93,7 @@ header{
     height: 150px;
     align-items: start;
     flex-direction: column;
+    margin-top: 50px;
     
 }
 
@@ -144,7 +145,7 @@ header{
 }
 
 .frete1{
-    background-color: rgb(245, 120, 120);
+    /* background-color: rgb(245, 120, 120); */
     padding: 10px;
     align-items: center;
     border-radius: 9px;
@@ -154,7 +155,7 @@ header{
 }
 
 .frete2{
-    background-color: #88f492;
+    /* background-color: #88f492; */
     padding: 10px;
     align-items: center;
     border-radius: 9px;
@@ -162,12 +163,54 @@ header{
 }
 
 .frete3{
-    background-color: rgb(121, 121, 199);
+    /* background-color: rgb(121, 121, 199); */
     padding: 10px;
     align-items: center;
     border-radius: 9px;
     border: 1px solid black;
 }
 
-.main_meio{
+form{
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+    
 }
+
+form input:hover{
+    cursor: pointer;
+}
+
+.main_meio1{
+    flex-direction: column;
+    align-items: start;
+    margin-top: 80px;
+}
+
+.cupom{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.cupom::placeholder {
+    padding-left: 10px;
+}
+
+.aplicar{
+    text-decoration: none;
+    border: solid #00A611;
+    border-radius: 9px;
+    color: #00A611;
+    width: 60px;
+    
+}
+
+.main_meio2{
+    flex-direction: column;
+    align-items: start;
+    margin-top: 80px;
+}
+
+
+
