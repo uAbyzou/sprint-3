@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Identificação</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../imagens/Principal/LOGOSITE.png" type="image/x-icon">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,11 +48,13 @@
         <br>
 
         <div class="dados">
+
             <!-- CEP -->
-            <div class="CEP">
+            <div class="cep">
                 <p class="texto"><span>*</span>CEP</p>
-                <input type="search">
+                <input type="search" name="cep" placeholder="Digite seu CEP" name="CEP"><a href="https://buscacepinter.correios.com.br/app/endereco/index.php"><img src="../imagens/lupa.png" alt="lupa" class="lupa"></a>
             </div>
+            <p class="ajuda"><a href="https://buscacepinter.correios.com.br/app/endereco/index.php" class="ajuda-1">Não sei meu cep</a></p>
             <!-- CEP -->
             
 
@@ -59,7 +62,7 @@
             <!-- Estado -->
             <div class="estado">
                 <p class="texto"><span>*</span>Estado</p>
-                <input type="text">
+                <input type="text" name="estado">
             </div>
             <!-- Estado -->
 
@@ -67,7 +70,7 @@
             <!-- Cidade -->
             <div class="cidade">
                 <p class="texto"><span>*</span>Cidade</p>
-                <input type="text">
+                <input type="text" name="cidade">
             </div>
             <!-- Cidade -->
             </div>
@@ -77,7 +80,7 @@
             <!-- Bairro -->
             <div class="bairro">
                 <p class="texto"><span>*</span>Bairro</p>
-                <input type="text">
+                <input type="text" name="bairro">
             </div>
             <!-- Bairro -->
 
@@ -85,7 +88,7 @@
             <!-- Rua / avenida -->
             <div class="rua">
                 <p class="texto"><span>*</span>Rua / avenida</p>
-                <input type="text">
+                <input type="text" name="rua">
             </div>
             <!-- Rua / avenida -->
             </div>
@@ -94,8 +97,8 @@
             <div class="dois-linha">
             <!-- Número -->
             <div class="numero">
-                <p class="texto"><span>*</span>Número</p>
-                <input type="tel">
+                <p class="texto"><span>*</span>Número da residência</p>
+                <input type="number" name="numero">
             </div>
             <!-- Número -->
 
@@ -104,7 +107,7 @@
             <!-- Complemento -->
             <div class="complemento">
                 <p class="texto">Complemento<span class="opcional"> (opcional)</span></p>
-                <input type="text">
+                <input type="text" name="complemento">
             </div>
             <!-- Complemento -->
             </div>
@@ -114,7 +117,7 @@
              <!-- Ponto de referência -->
              <div class="ponto-de-referencia">
                 <p class="texto"><span>*</span>Ponto de referência</p>
-                <input type="text">
+                <input type="text" name="ponto-de-referencia">
             </div>
             <!-- Ponto de referência -->
             </div>
@@ -124,14 +127,14 @@
              <!-- Nome -->
              <div class="nome">
                 <p class="texto"><span>*</span>Nome completo</p>
-                <input type="text">
+                <input type="text" name="nome">
             </div>
             <!-- Nome -->
 
              <!-- CPF -->
              <div class="cpf">
                 <p class="texto">CPF<span class="opcional"> (opcional)</span></p>
-                <input type="number">
+                <input type="number" name="cpf">
             </div>
             <!-- CPF -->
             </div>
@@ -142,5 +145,48 @@
         <!-- botão -->
         <a href="#" class="botao"><p class="entrega">Entregar nesse endereço</p></a>
     </main>
+
+    <!-- _______________________________________ -->
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="esquerda-footer">
+            <nav>
+                <ul>
+                    <li><a href="#">Regras da comunidade</a></li>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Serviços Online</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+            </nav>
+
+            <div class="escrita-footer">
+                <p>Política de privacidade | Termos legais | Acordo de subscrição | Reembolsos | Cookies</p>
+                <p>@2023 Style Records. Todos os direitos reservados, Todas as marcas comerciais são propriedades dos respectivos proprietários do Brasil.</p>
+            </div>
+        </div>
+
+        <div class="direita-footer">
+            <nav>
+                <ul class="redes-sociais">
+                    <div class="links-social">
+                        <img src="../imagens/Twitter logo.png" alt="twitter" class="logo-social">
+                        <li><a href="https://twitter.com/home">@Style_records</a></li>
+                    </div>
+
+                    <div class="links-social">
+                        <img src="../imagens/Facebook logo.png" alt="facebook" class="logo-social">
+                        <li><a href="https://www.facebook.com">Style Records</a></li>
+                    </div>
+
+                    <div class="links-social">
+                        <img src="../imagens/Instagram logo.png" alt="instagram" class="logo-social">
+                        <li><a href="https://www.instagram.com">Style_Records</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>

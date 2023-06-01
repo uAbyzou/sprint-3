@@ -65,10 +65,6 @@ header a:hover {
     border-radius: 100px;
 }
 
-.main-cima {
-    /* background-color: rgb(91, 56, 56); */
-}
-
 .pesquisa input{
     width: 350px;
     height: 40px;
@@ -90,18 +86,6 @@ header a:hover {
     margin-top: 5px;
 }
 
-.ad-srool-vertical{
-    display: flex;
-    flex-direction: row;
-}
-
-.caixa-scrool {
-    width: 201px;
-    height: 132px;
-    background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
-    border-radius: 10px;
-}
-
 /* HEADER */
 
 
@@ -110,8 +94,8 @@ header a:hover {
 
 .teto {
     display: flex;
-    gap: 700px;
-    margin-right: 25px;
+    gap: 515px;
+    margin-right: 0px;
     margin-left: 0px;
 }
 
@@ -129,7 +113,7 @@ header a:hover {
     margin-left: 85px;
 }
 
-p {
+.texto {
     font-size: 30px;
     margin-left: 85px;
 }
@@ -141,10 +125,40 @@ p {
 
 
 input {
-    width: 660px;
+    width: 570px;
     height: 40px;
     border-radius: 10px;
     margin-left: 85px;
+}
+
+.cep input{
+    width: 570px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.cep img{
+    width: 35px;
+    height: 35px;
+    opacity: 50%;
+}
+
+.cep img:hover {
+    opacity: 100%;
+}
+
+.cep a {
+    position: absolute;
+    left: 615px;
+    margin-top: 5px;
+}
+
+
+.ajuda {
+    font-size: 11px;
+    display: flex;
+    margin-left: 88px;
+    color: #00A611;
 }
 
 /* _____________________________________________________________ */
@@ -183,16 +197,16 @@ input {
 /* _____________________________________________________________ */
 /* Input maior */
 .bairro input {
-    width: 1337px;
+    width: 1158px;
 }
 
 
 .ponto-de-referencia input{
-    width: 1337px;
+    width: 1158px;
 }
 
 .rua input{
-    width: 1337px;
+    width: 1158px;
 }
 
 /* Input maior */
@@ -222,7 +236,79 @@ input {
     justify-content: center;
     text-decoration: none;
     color: white;
-    margin-right: 110px;
+    margin-right: 20px;
+}
+
+.botao p:hover {
+        background-color: #024920;
 }
 
 /* Botão */
+
+
+/* __________________________________________________ */
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9B2781;
+    font-size: 13px;
+    margin-top: 45px;
+}
+
+.escrita-footer {
+    line-height: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.esquerda-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.esquerda-footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 13px;
+    margin-left:10px;
+}
+
+.esquerda-footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.esquerda-footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-social {
+    width: 28px;
+    height: 28px;
+}
+
+.links-social {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes-sociais {
+    margin-right: 15px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
