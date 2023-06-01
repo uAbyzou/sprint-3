@@ -166,6 +166,7 @@ header a:hover {
 .escrita {
     line-height: 25px; 
     padding: 0px 10px 0px 10px;
+    position: relative;
 }
 
 .botao-comprar {
@@ -287,7 +288,34 @@ footer {
     display: none;
 }
 
+.estrela {
+    width: 15px;
+    height: 15px;
+}
+
+.div-estrelas {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 15%;
+    bottom: 7%;
+}
+
 @media (max-width: 992px) {
+    #star {
+        display: block;
+        height: 9px;
+        width: 9px;
+    }
+    
+    .div-estrelas {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        right: 21%;
+        bottom: 9%;
+    }
+
     header ul {
         gap: 15px;
         height: 50px;

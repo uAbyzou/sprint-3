@@ -63,7 +63,7 @@ main{
 .encimaEsquerda{
     display: flex;
     flex-direction: row;
-    border: solid black 0px 0px 0px 1px;
+    /* border-right: solid black 1px; */
 }
 .mainEsquerda ul{
     list-style: none;
@@ -132,6 +132,7 @@ main{
 .estrela{
     display: flex;
     flex-direction: row;
+    list-style: none;
 }
 .preco ul{
     display: flex;
@@ -140,7 +141,18 @@ main{
     gap: 3px;
     margin-top: 4px;
 }
+.mainDireita{
+    border-left: solid black 1px;
+}
 .encimaDireita{
     margin-left: 50px;
     margin-top: 20px;
+}
+.estrela-vazia{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.encimaDireita span{
+    color: #27d639; 
 }
