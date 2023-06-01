@@ -126,7 +126,7 @@ main{
     display: flex;
     flex-direction: row;
 }
-.preco .frete h4{
+.frete h4{
     margin-top: 15px;
 }
 .estrela{
@@ -142,7 +142,10 @@ main{
     margin-top: 4px;
 }
 .mainDireita{
+    /* background: black; */
     border-left: solid black 1px;
+    height: 472px;
+    width: 510px;
 }
 .encimaDireita{
     margin-left: 50px;
@@ -155,4 +158,143 @@ main{
 }
 .encimaDireita span{
     color: #27d639; 
+}
+.frete{
+    display: flex;
+    flex-direction: row;
+}
+.caixas{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.caixa-ml{
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.compra{
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(90deg,#BD00FF,#723786,#BD00FF);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 78px;
+}
+.compra h2{
+    color: white;
+}
+.carrinho{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 68px;
+    background: linear-gradient(90deg,#256FFF,#004CA5,#256FFF);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrinho h3{
+    color: #9CF3FF;
+    display: flex;
+    margin-top: 5px;
+}
+.baixoDireita{
+    /* background: black; */
+    margin-top: 57px;
+    border-top: solid black 1px;
+    width: 500px;
+    height: 400px;
+}
+.maisSobre{
+    text-align: justify;
+}
+.maisSobre h2{
+    font-size: 30px;
+}
+.maisSobre h3{
+    font-size: 25px;
+}
+.maisSobre h4{
+    font-size: 20px
+}
+.escrita-sobre{
+    text-align: justify;
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9B2781;
+    font-size: 13px;
+    margin-top: 45px;
+}
+
+.escrita-footer {
+    line-height: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.esquerda-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.esquerda-footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 13px;
+    margin-left:10px;
+}
+
+.esquerda-footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.esquerda-footer nav ul li a:hover {
+    text-decoration: underline;
+}
+.logo-social {
+    width: 28px;
+    height: 28px;
+}
+
+.links-social {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes-sociais {
+    margin-right: 15px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.div-logo{
+    display: flex;
+    justify-content: center;
+    width: 173px;
 }
