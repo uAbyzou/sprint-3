@@ -148,3 +148,11 @@ main{
     margin-left: 50px;
     margin-top: 20px;
 }
+.estrela-vazia{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.encimaDireita span{
+    color: #27d639; 
+}
