@@ -57,12 +57,13 @@ main{
     flex-direction: row;   
 }
 .mainEsquerda{
-    background: black;
+    /* background: black; */
     width: 950px;
 }
-.encimaEsqueda{
+.encimaEsquerda{
     display: flex;
     flex-direction: row;
+    border: solid black 0px 0px 0px 1px;
 }
 .mainEsquerda ul{
     list-style: none;
