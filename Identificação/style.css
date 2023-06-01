@@ -339,8 +339,6 @@ header a:hover {
     .teto {
         display: flex;
         gap: 535px;
-        margin-right: 0px;
-        margin-left: 0px;
     }
 
     .teto a {
@@ -353,9 +351,27 @@ header a:hover {
         margin-left: 155px;
     }
 
+    .teto p a:hover{
+        text-decoration: underline;
+    }
+
     .texto {
         font-size: 30px;
         margin-left: 145px;
+    }
+
+    @media (max-width: 1400px) {
+        .teto p {
+            font-size: 20px;
+            margin-left: 55px;
+        }
+        .teto {
+            gap: 320px;
+        }
+        .texto {
+            font-size: 15px;
+            margin-left: 55px;
+        }
     }
 
     /* Parte de cima */
@@ -400,6 +416,54 @@ header a:hover {
         margin-left: 155px;
         color: #00A611;
     }
+
+    @media (max-width: 1400px) {
+        input {
+            margin-left: 60px;
+            height: 40px;
+            border-radius: 10px;
+            width: 360px;
+        }
+
+        .cep input {
+            width: 360px;
+        }
+
+        .cidade input {
+            margin-left: 170px;
+        }
+        .cidade p{
+            margin-left: 170px;
+        }
+
+        .complemento input {
+            margin-left: 170px;
+        }
+        .complemento p {
+            margin-left: 170px
+        }
+
+        .cpf input {
+            margin-left: 170px;
+        }
+        .cpf p {
+            margin-left: 170px;
+        }
+        
+        .ajuda{
+            margin-left: 60px;
+        }
+
+        .cep a{
+            left: 380px;
+        }
+
+        .cep img{
+            width: 25px;
+            height: 25px;
+        }
+    }
+
 
     /* _____________________________________________________________ */
     /* Espaço entre os items */
@@ -448,7 +512,20 @@ header a:hover {
 
     .rua input{
         width: 1224px;
-    
+        
+}
+@media (max-width: 1400px) {
+    .bairro input{
+        width: 760px;
+    }
+
+    .ponto-de-referencia input{
+        width: 760px;
+    }
+
+    .rua input {
+        width: 760px;
+    }
 }
     /* Input maior */
 

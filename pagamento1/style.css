@@ -60,3 +60,114 @@ header{
     list-style: none;
     gap: 25px;
 }
+
+.img_direita{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.macaco{
+    border-radius: 100%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    /* margin-top: 90px; */
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: #00A611;
+}
+
+.caixa{
+    /* background-color: rgb(116, 116, 225); */
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    width: 238px;
+    height: 150px;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.texto1{
+    display: flex;
+    gap: 83px;    
+}
+
+.texto2{
+    display: flex;
+    gap: 148px;   
+}
+
+.texto2 strong{
+   color:#00A611; 
+}
+
+.caixa_dentro{
+    /* background-color:rgb(252, 113, 113); */
+    border-radius: 0px 0px 9px 9px;
+    margin-left: -1px;
+    border: 1px solid black;
+    display: flex;
+    width: 238px;
+    height: 205px;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.texto3{
+    display: flex;
+    gap: 140px;   
+}
+
+.texto4{
+    display: flex;
+    margin-left: 69px;   
+}
+
+.texto4 span{
+    color: #00A611;
+}
+
+.main_cima{
+    display: flex;
+    justify-content:space-between;
+    margin-top:20px;    
+}
+
+.frete1{
+    background-color: rgb(245, 120, 120);
+    padding: 10px;
+    align-items: center;
+    border-radius: 9px;
+    border: 1px solid black;
+    
+       
+}
+
+.frete2{
+    background-color: #88f492;
+    padding: 10px;
+    align-items: center;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+.frete3{
+    background-color: rgb(121, 121, 199);
+    padding: 10px;
+    align-items: center;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+.main_meio{
+}
