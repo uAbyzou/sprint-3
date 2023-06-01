@@ -371,6 +371,20 @@ footer {
         filter: invert(100%);
     }
 
+    .menu-perfil {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #8f508b;
+        color: black;
+        top: 8%;
+        right: 6.3%;
+        padding: 25px;
+        border-radius: 5px;
+        height: 110px;
+        gap: 25px;
+    }
+
     .ad-srool-vertical {
         display: flex;
         flex-direction: column;
