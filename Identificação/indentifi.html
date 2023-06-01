@@ -7,6 +7,7 @@
     <title>Identificação</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../imagens/Principal/LOGOSITE.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +16,25 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="../imagens/Principal/LOGOSITE.png" alt="logo" width="60px" height="60px"></a>
+        <div class="div-logo">
+            <a href="index.html"><img src="../imagens/Principal/LOGOSITE.png" alt="logo" width="60px" height="60px" id="logoSite"></a>
+        </div>
 
-        <ul>
+        <div class="div-hamburguer">
+            <a href="#"><img src="../imagens/icons8-menu-arredondado-50.png" alt="hamburguer" class="hamburguer" id="menu-hamburguer"></a>
+        </div>
+
+        <ul class="desliga" id="lista-perfil">
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Contatos</a></li>
+            <li><a href="login/login.html">Logout</a></li>
+
+            <div class="div-X-perfil">
+                <a href="#"><img src="../imagens/icons8-x-48.png" alt="X" id="fechar-perfil" class="fechar-perfil"></a>
+            </div>
+        </ul>
+
+        <ul class="menu" id="menu1">
             <li><a href="#">Acessórios</a></li>
             <li><a href="#">Perfumes</a></li>
             <li><a href="#">Acessórios de Pele</a></li>
@@ -26,10 +43,14 @@
             <li><a href="#">Marca</a></li>
             <li><a href="#">Géis</a></li>
             <li><a href="#">Loções</a></li>
+
+            <div class="div-X">
+                <a href="#"><img src="../imagens/icons8-x-48.png" alt="X" id="fechar" class="fechar"></a>
+            </div>
         </ul>
 
         <div>
-            <ul>
+            <ul class="lista-icons-header">
                 <li><a href="#"><img src="../imagens/Principal/coracao.png" alt="coracao" class="icon-header"></a></li>
                 <li><a href="#"><img src="../imagens/Perfil.jpg" alt="perfil" class="icon-header" id="perfil"></a></li>
                 <li><a href="#"><img src="../imagens/shopping-cart.png" alt="carrinho" class="icon-header"></a></li>
@@ -188,5 +209,8 @@
             </nav>
         </div>
     </footer>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 </html>
