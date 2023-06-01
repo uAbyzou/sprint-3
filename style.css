@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5% 2px 5%;
+    background-color: #AB238D;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.icon-header {
+    width: 41px;
+    height: 38px;
+}
+
+#perfil {
+    border-radius: 100px;
+}
+
+.main-cima {
+    /* background-color: rgb(138, 41, 41); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa input{
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #B7B7B7;
+    border: none;
+    padding: 0px 5px 0px 5px;
+    outline: none;
+}
+
+.pesquisa img{
+    width: 30px;
+    height: 30px;
+}
+
+.pesquisa a {
+    margin-left: -40px;
+    
+}
+
+.ad-srool-vertical{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.scrool-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: scroll;
+    height: 280px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    /* background-color: blue; */
+}
+
+.caixa-scrool {
+    width: 196px;
+    min-height: 127px; /* faz com que a caixa não diminua o tamanho quando o scrool for menor */
+    background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.caixa-scrool label {
+    color: #fff;
+}
+
+.cu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setas {
+    transition: all .8s;
+}
+
+::-webkit-scrollbar {
+    width: 5px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da área de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra de rolagem */
+}
+
+.scrool-horizontal {
+    background-color: #960C77;
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+    width: 90%;
+    overflow-x: scroll;
+    left: 50%;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.caixa-scrool-horizontal {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    min-width: 200px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.imagens-caixa {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.imagens-caixa img {
+    margin: auto;
+}
+
+.escrita {
+    line-height: 25px; 
+    padding: 0px 10px 0px 10px;
+}
+
+.botao-comprar {
+    background-color: #FFD800;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.botao-comprar:hover {
+    background-color: #ffaa00;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9B2781;
+    font-size: 13px;
+    margin-top: 45px;
+}
+
+.escrita-footer {
+    line-height: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.esquerda-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.esquerda-footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 13px;
+    margin-left:10px;
+}
+
+.esquerda-footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.esquerda-footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-social {
+    width: 28px;
+    height: 28px;
+}
+
+.links-social {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes-sociais {
+    margin-right: 15px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.div-logo{
+    display: flex;
+    justify-content: center;
+    width: 173px;
+}
+
+#menu-hamburguer {
+    display: none;
+}
+
+.fechar {
+    display: none;
+}
+
+/* Menu que aparece quando clica na imagem de perfil */
+.menu-perfil {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #8f508b;
+    color: black;
+    top: 8%;
+    right: 6.3%;
+    padding: 25px;
+    border-radius: 5px;
+    height: 110px;
+}
+
+#fechar-perfil {
+    width: 19px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.desliga {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    header ul {
+        gap: 15px;
+        height: 50px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-cima {
+        padding-top: 30px;
+    }
+
+    .div-logo {
+        width: 122.25px;
+    }
+
+    .lista-icons-header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icon-header {
+        width: 30.75px;
+        height: 28.5px;
+    }
+
+    #logoSite {
+        width: 45px;
+        height: 45px;
+    }
+    
+    /* menu do header */
+    .menu {
+        display: none;
+    }
+
+    .menu-ativado {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #960C77;
+        height: 300px;
+        width: 95%;
+        top: 0.5%;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 7px;
+        border: 1.5px solid #d108a5;
+    }
+
+    .desactive {
+        display: none;
+    }
+
+    .div-hamburguer {
+        display: flex;
+        width: 122.25px;
+        justify-content: center;
+    }
+
+    #menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #fechar {
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        filter: invert(100%);
+    }
+
+    .menu-perfil {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #8f508b;
+        color: black;
+        top: 8%;
+        right: 6.3%;
+        padding: 25px;
+        border-radius: 5px;
+        height: 110px;
+        gap: 25px;
+    }
+
+    .ad-srool-vertical {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #propaganda {
+        width: 283.5px;
+        height: 133.5px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
+
+    .pesquisa input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .caixa-scrool label {
+        font-size: 9px;
+    }
+
+    #desconto-icone {
+        height: 50px;
+        width: 50px;
+    }
+
+    #local-icone {
+        height: 45px;
+        width: 35px;
+    }
+
+    #cupom-icone{
+        height: 45px;
+        width: 45px;
+    }
+
+    .scrool-vertical {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        height: 74px;
+        white-space: nowrap;
+        box-sizing: border-box;
+        margin-bottom: 13%;
+    }
+
+    .caixa-scrool{
+        width: 98px;
+        min-height: 63.5px; /* faz com que a caixa não diminua o tamanho quando o scrool for menor */
+        max-height: 63.5px;
+        background: linear-gradient(270deg, #D70EAB 0%, #960C77 75%, #070707 100%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        margin-right: 2px;
+    }
+
+    .setas {
+        display: none;
+    }
+
+    .caixa-scrool-horizontal {
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        min-width: 150px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 7px;
+    }
+
+    /* ícone coração */
+    .caixa-scrool-horizontal a img {
+        height: 20px;
+        width: 20px;
+    }
+
+    /* imagem do produto */
+    .caixa-scrool-horizontal img {
+        height: 85px;
+        width: 85px;
+    }
+
+    .caixa-scrool-horizontal label {
+        font-size: 12px;
+    }
+
+    .botao-comprar {
+        margin-top: 7px;
+    }
+
+    .scrool-horizontal {
+        width: 95%;
+    }
+
+    .logo-social {
+        width: 14px;
+        height: 14px;
+    }
+    
+    footer {
+        /* position: absolute; */
+        top: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #9B2781;
+        font-size: 6px;
+        margin-top: 25px;
+    }
+
+    .esquerda-footer nav ul {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        font-size: 7px;
+        margin-left:10px;
+    }
+
+    .escrita-footer {
+        line-height: 10px;
+    }
+}
