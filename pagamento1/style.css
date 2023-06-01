@@ -79,23 +79,78 @@ header{
     /* margin-top: 90px; */
 }
 
-.informacoes h1{
+.informacoes a{
     text-decoration: none;
+    color: #00A611;
 }
 
 .caixa{
-    background-color: rgb(116, 116, 225);
+    /* background-color: rgb(116, 116, 225); */
     border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    width: 238px;
+    height: 150px;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.texto1{
+    display: flex;
+    gap: 83px;    
+}
+
+.texto2{
+    display: flex;
+    gap: 148px;   
+}
+
+.texto2 strong{
+   color:#00A611; 
+}
+
+.caixa_dentro{
+    /* background-color:rgb(252, 113, 113); */
+    border-radius: 0px 0px 9px 9px;
+    margin-left: -1px;
     border: 1px solid black;
     display: flex;
     width: 238px;
     height: 205px;
     align-items: start;
     flex-direction: column;
+    
 }
 
-.caixa p{
+.texto3{
     display: flex;
-    text-align: ;
+    gap: 140px;   
+}
+
+.texto4{
+    display: flex;
+    margin-left: 69px;   
+}
+
+.texto4 span{
+    color: #00A611;
+}
+
+.main_cima{
+    display: flex;
+    justify-content:space-between;
+    margin-top:20px;    
+}
+
+.frete1{
+    background-color:rgb(252, 113, 113);
+    border-radius: 0px;
+    border: 1px solid black;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    
+
     
 }
