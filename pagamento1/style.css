@@ -144,13 +144,27 @@ header{
 }
 
 .frete1{
-    background-color:rgb(252, 113, 113);
-    border-radius: 0px;
+    background-color: rgb(245, 120, 120);
+    padding: 10px;
+    align-items: center;
+    border-radius: 9px;
     border: 1px solid black;
-    display: flex;
-    height: 50px;
-    width: 50px;
     
+       
+}
 
-    
+.frete2{
+    background-color: #88f492;
+    padding: 10px;
+    align-items: center;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+.frete3{
+    background-color: rgb(121, 121, 199);
+    padding: 10px;
+    align-items: center;
+    border-radius: 9px;
+    border: 1px solid black;
 }
