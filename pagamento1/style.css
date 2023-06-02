@@ -212,5 +212,86 @@ form input:hover{
     margin-top: 80px;
 }
 
+.boleto{
+    flex-direction: column;
+}
+
+.cartao{
+    flex-direction: column;
+}
+
+.pix{
+    flex-direction: column;
+}
+
+
+.main_meio3{
+    flex-direction: column;
+    align-items: start;
+    margin-top: 80px;
+}
+
+.main_meio3 form{
+    margin-left: 280px;
+}
+
+.card{
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.senha_3dig{
+ border-radius: 20px;
+ height: 30px;
+}
+
+.senha_3dig::placeholder{
+    padding-left: 10px;
+}
+
+.codSeguranca{
+    align-items: center;
+}
+
+.parcelas{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.infoCard{
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.butao{
+    background-color: #00A611;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.compra{
+    flex-direction: column;
+
+}
+
+.compra_texto{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;   
+}
+
+.main_meio4{
+    flex-direction: column;
+    gap: 50px;
+}
+
 
 

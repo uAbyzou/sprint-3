@@ -108,7 +108,64 @@
                 </form>
             </label>
         </div>
+    </section>
 
+    <section class="main_meio3">
+        <h1>Formas de Pagamento</h1> <br>
+        
+        <form action="">
+            <div class="boleto">
+                <img src="../imagens/Pagamento/barras.png" alt="codBarra" height="60px" width="60px">
+                <label for="">Boleto</label>
+                <input type="radio" name="formaPagamento" value="boleto">
+            </div>
+    
+            <div class="cartao">
+                <img src="../imagens/Pagamento/card.png" alt="cartao" height="60px" width="60px">
+                <label for="">Cartão</label>
+                <input type="radio" name="formaPagamento" value="cartao">
+            </div>
+    
+            <div class="pix">
+                <img src="../imagens/Pagamento/pix.png" alt="pix" height="60px" width="60px">
+                <label for="">Pix</label>
+                <input type="radio" name="formaPagamento" value="pix">
+            </div>
+        </form>
+    </section>
+
+    <section class="main_meio4">
+        <form action="" class="card">
+            <input type="radio" name="card" value="card">
+            <img src="../imagens/Pagamento/cartao.png" alt="card" height="60px" width="85px">
+            <p>6666666666666666</p>
+        </form>
+
+        <div class="infoCard">
+            <label for="">Codigo de segurança
+                <form action="" class="codSeguranca">
+                    <input type="password" name="codSeguranca" class="senha_3dig" minlength="3" maxlength="3" required placeholder="digite aqui">
+                    <img src="../imagens/Pagamento/codseguranca.png" alt="" height="30px" width="40px">
+                    3 três últimos digitos no fundo do cartão
+                </form>
+            </label>
+
+            <label for="">Número de parcelas
+                <div class="parcelas">
+                    <p>1x de R$290,00</p>
+                    <img src="../imagens/Principal/setaBaixo.png" alt="seta" height="15px" width="15px">
+                </div>
+            </label>
+        </div>
+
+        <div class="compra">
+            <div class="compra_texto">
+            <p><strong>Total:</strong></p>
+            <p>R$290,00</p>
+            </div>
+            <br>
+            <input type="submit" value="Fechar Pedido" class="butao">
+        </div>
     </section>
 </main>
     
