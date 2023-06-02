@@ -148,10 +148,16 @@ main{
     /* background-color: blueviolet; */
     border: black solid 1px;
 }
+.caixa .produto-rolagem{
+    display: flex;
+    margin: auto;
+} 
 .preco{
     display: flex;
     flex-direction: column;
     margin-left: 7px;
+    position: absolute;
+    top: 195px;
 }
 .preco span{
     color: #27d639;
