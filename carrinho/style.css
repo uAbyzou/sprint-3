@@ -1,0 +1,334 @@
+
+/* _______________________________________ */
+/* Header */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5% 2px 5%;
+    background-color: #AB238D;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 25px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.icon-header {
+    width: 41px;
+    height: 38px;
+}
+
+#perfil {
+    border-radius: 100px;
+}
+
+/* ____________________________________________ */
+/* Carrossel */
+
+main{
+    margin: 15px;
+}
+
+.titulo {
+    position: relative;
+    left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+
+.outrascompras img{
+    width: 130px;
+    height: 130px;
+}  
+
+.produtos {
+    border-style: groove;
+
+}
+
+.produtos img {
+    max-width: 130px;
+    height: 130px;
+}
+
+.outrascompras{
+    text-align: center;
+    display: flex;
+    border-style: groove;
+    gap: 130px;
+    align-items: center;
+    margin: 20px;
+}
+
+.outrascompras p{
+    display: flex;
+}
+
+/* _____________________________ */
+/* Parte de baixo */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.SeuCarrinho{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 20px;
+    font-size: xx-large;
+}
+
+.SeuCarrinho span {
+    font-weight: normal;
+}
+
+.Produto {
+    font-size: large;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+.descproduto {
+    font-size: 17px;
+    float: left;
+    margin-top: 100px;
+}
+
+.produto img{
+    float: left;
+}
+
+.juros {
+    font-size: medium;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.juros b {
+    color: rgb(19, 169, 19);
+}
+
+.frete {
+    width: 220px;
+    height: 40px;
+    border: solid 2px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.envie {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tituloresumo {
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.botao-enviar {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: white;
+    color: #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #28622a;
+    transition: background-color 1.5s ease;
+    transition: color 1s ease;
+
+    margin: 15px;
+}
+
+.botao-enviar:hover {
+    background-color: #01b10a;
+    color: white;
+}
+
+/* __________________________________________ */
+/* Resumo do Pedido */
+
+.resumo{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    width: fit-content;
+    justify-content: right;
+    border: solid 2px;
+    border-radius: 16px;
+    padding: 12px;
+    /* background-color: red; */
+    margin-top: -60px;
+}
+
+.tituloresumo {
+    text-align: center;
+}
+
+.resumo a {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(19, 169, 19);
+    border-radius: 25px;
+    border-color: rgb(15, 144, 15);
+    cursor: pointer;
+    color: white;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    padding: 12px;
+    text-decoration: none;
+    
+}
+
+.continuar {
+    text-align: center;
+}
+
+.descresumo {
+    font-size: x-large;
+    line-height: 30px;
+}
+
+.freteG b{
+    font-size: large;
+    color: rgb(19, 169, 19);
+}
+
+.preçoP {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    /* background-color: red; */
+}
+
+.freteG {
+    display: flex;
+    flex-direction: row;
+    gap: 275px;
+    /* background-color: blue; */
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    gap: 210px;
+    margin-top: 20px;
+}
+
+.cupom {
+    text-align: center;
+}
+
+.conteinerfrete {
+    /* background-color: blue; */
+    position: relative;
+    top: 240px;
+    right: 420px;
+}
+
+/* ______________________________ */
+/* Informações do produto */
+
+.infoproduto {
+    display: flex;
+    margin-left: 480px;
+}
+
+.infoproduto p {
+    margin-right: 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+.infoproduto span {
+    text-decoration: underline;
+}
+
+/* _____________________________ */
+/* Quantidade */
+
+.quantity {
+    /* background-color: red; */
+    text-align: center;
+    position: relative;
+    right: 205px;
+    bottom: 20px;
+}
+
+.quantity input {
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 14px;
+}
+
+.quantity b {
+    font-size: larger;
+}
+
+.quantity span {
+    font-weight: normal;
+}
+
+/* _____________________________ */
+/* Entrega */
+
+.entrega {
+    font-size: x-large;
+    position: relative;
+    color: #00ce0a;
+    left: 455px;
+    bottom: 95px;
+    text-decoration: underline;
+}
+
+.entrega:hover {
+    color: #43ff4c;
+}
+
+/* ____________________________ */
+/* Preço */
+
+.preço {
+    font-size: x-large;
+    position: relative;
+    left: 515px;
+    bottom: 95px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.preço span {
+    font-weight: normal;
+}
