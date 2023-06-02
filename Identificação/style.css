@@ -359,6 +359,12 @@ header a:hover {
         font-size: 30px;
         margin-left: 145px;
     }
+    .complemento .texto {
+        margin-left: 155px;
+    }
+    .cpf .texto {
+        margin-left: 155px;
+    }
 
     @media (max-width: 1400px) {
         .teto p {
@@ -413,8 +419,19 @@ header a:hover {
     .ajuda {
         font-size: 11px;
         display: flex;
-        margin-left: 155px;
+        margin-left: 157px;
         color: #00A611;
+    }
+
+    .ajuda a{
+        text-decoration: none;
+        color: black;
+        opacity: 50%;
+    }
+
+    .ajuda a:hover {
+        opacity: 100%;
+        text-decoration: underline;
     }
 
     @media (max-width: 1400px) {

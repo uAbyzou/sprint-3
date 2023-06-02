@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-/* geral */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-body{
-    background: linear-gradient(130deg,#5C174D,#9B2781,#5C174D);
-    background-attachment: fixed;
-}
 
-/* header */
 header{
     display: flex;
     flex-direction: row;
@@ -18,6 +13,7 @@ header{
     justify-content: space-between;
     padding: 2px 5% 2px 5%;
     background-color: #AB238D;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 header ul{
@@ -25,7 +21,6 @@ header ul{
     flex-direction: row;
     list-style: none;
     gap: 25px;
-    
 }
 
 header a {
@@ -46,12 +41,53 @@ header a:hover {
     border-radius: 100px;
 }
 
+.div-logo{
+    display: flex;
+    justify-content: center;
+    width: 173px;
+}
+
+#menu-hamburguer {
+    display: none;
+}
+
+.fechar {
+    display: none;
+}
+
+/* Menu que aparece quando clica na imagem de perfil */
+.menu-perfil {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #8f508b;
+    color: black;
+    top: 8%;
+    right: 6.3%;
+    padding: 25px;
+    border-radius: 5px;
+    height: 110px;
+}
+
+#fechar-perfil {
+    width: 19px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.desliga {
+    display: none;
+}
 
 
 /* main */
 main{
     background: white;
-    margin: 30px;
+    /* margin: 30px; */
     border-radius: 10px;
     display: flex;
     flex-direction: row;   
@@ -98,7 +134,8 @@ main{
     /* top: 50%; */
     /* left: 50%; */
     /* transform: translate(-50%, -50%); */
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
     /* box-shadow: 0px 0px 10px 2px magenta; */
     box-sizing: border-box;
     margin-top: 20px;
@@ -111,10 +148,16 @@ main{
     /* background-color: blueviolet; */
     border: black solid 1px;
 }
+.caixa .produto-rolagem{
+    display: flex;
+    margin: auto;
+} 
 .preco{
     display: flex;
     flex-direction: column;
     margin-left: 7px;
+    position: absolute;
+    top: 195px;
 }
 .preco span{
     color: #27d639;
@@ -145,7 +188,7 @@ main{
     /* background: black; */
     border-left: solid black 1px;
     height: 472px;
-    width: 510px;
+    width: 530px;
 }
 .encimaDireita{
     margin-left: 50px;
@@ -209,9 +252,9 @@ main{
 }
 .baixoDireita{
     /* background: black; */
-    margin-top: 57px;
+    margin-top: 37px;
     border-top: solid black 1px;
-    width: 500px;
+    width: 568px;
     height: 400px;
 }
 .maisSobre{
@@ -237,7 +280,7 @@ footer {
     align-items: center;
     background-color: #9B2781;
     font-size: 13px;
-    margin-top: 45px;
+    /* margin-top: 45px; */
 }
 
 .escrita-footer {
@@ -293,8 +336,95 @@ footer {
     text-decoration: underline;
 }
 
-.div-logo{
-    display: flex;
-    justify-content: center;
-    width: 173px;
+@media (max-width: 992px) {
+    /* __________Header__________ */
+    header ul {
+        gap: 15px;
+        height: 50px;
+    }
+
+    .div-logo {
+        width: 122.25px;
+    }
+
+    .lista-icons-header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icon-header {
+        width: 30.75px;
+        height: 28.5px;
+    }
+
+    #logoSite {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* menu do header */
+    .menu {
+        display: none;
+    }
+
+    .menu-ativado {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #960C77;
+        height: 300px;
+        width: 95%;
+        top: 0.5%;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 7px;
+        border: 1.5px solid #d108a5;
+    }
+
+    .desactive {
+        display: none;
+    }
+
+    .div-hamburguer {
+        display: flex;
+        width: 122.25px;
+        justify-content: center;
+    }
+
+    #menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #fechar {
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        filter: invert(100%);
+    }
+
+    .menu-perfil {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #8f508b;
+        color: black;
+        top: 8%;
+        right: 6.3%;
+        padding: 25px;
+        border-radius: 5px;
+        height: 110px;
+        gap: 25px;
+    }
+
+
 }
