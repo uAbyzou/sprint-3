@@ -413,8 +413,19 @@ header a:hover {
     .ajuda {
         font-size: 11px;
         display: flex;
-        margin-left: 155px;
+        margin-left: 157px;
         color: #00A611;
+    }
+
+    .ajuda a{
+        text-decoration: none;
+        color: black;
+        opacity: 50%;
+    }
+
+    .ajuda a:hover {
+        opacity: 100%;
+        text-decoration: underline;
     }
 
     @media (max-width: 1400px) {
