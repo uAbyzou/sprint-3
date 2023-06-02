@@ -359,6 +359,12 @@ header a:hover {
         font-size: 30px;
         margin-left: 145px;
     }
+    .complemento .texto {
+        margin-left: 155px;
+    }
+    .cpf .texto {
+        margin-left: 155px;
+    }
 
     @media (max-width: 1400px) {
         .teto p {
