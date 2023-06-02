@@ -46,6 +46,11 @@ header a:hover {
     border-radius: 100px;
 }
 
+.div-logo{
+    display: flex;
+    justify-content: center;
+    width: 173px;
+}
 
 
 /* main */
@@ -291,10 +296,4 @@ footer {
 
 .redes-sociais a:hover {
     text-decoration: underline;
-}
-
-.div-logo{
-    display: flex;
-    justify-content: center;
-    width: 173px;
 }
