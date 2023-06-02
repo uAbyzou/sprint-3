@@ -87,7 +87,7 @@ header a:hover {
 /* main */
 main{
     background: white;
-    margin: 30px;
+    /* margin: 30px; */
     border-radius: 10px;
     display: flex;
     flex-direction: row;   
@@ -134,7 +134,8 @@ main{
     /* top: 50%; */
     /* left: 50%; */
     /* transform: translate(-50%, -50%); */
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
     /* box-shadow: 0px 0px 10px 2px magenta; */
     box-sizing: border-box;
     margin-top: 20px;
@@ -181,7 +182,7 @@ main{
     /* background: black; */
     border-left: solid black 1px;
     height: 472px;
-    width: 510px;
+    width: 530px;
 }
 .encimaDireita{
     margin-left: 50px;
@@ -245,9 +246,9 @@ main{
 }
 .baixoDireita{
     /* background: black; */
-    margin-top: 57px;
+    margin-top: 37px;
     border-top: solid black 1px;
-    width: 500px;
+    width: 568px;
     height: 400px;
 }
 .maisSobre{
@@ -273,7 +274,7 @@ footer {
     align-items: center;
     background-color: #9B2781;
     font-size: 13px;
-    margin-top: 45px;
+    /* margin-top: 45px; */
 }
 
 .escrita-footer {
