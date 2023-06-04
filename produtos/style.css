@@ -259,6 +259,7 @@ main{
 }
 .maisSobre{
     text-align: justify;
+    margin-left: 15px;
 }
 .maisSobre h2{
     font-size: 30px;
