@@ -4,13 +4,13 @@ const imgMenor3 = document.querySelector("#imgMenor3")
 const imgMaior = document.querySelector("#imgMaior")
 
 imgMenor1.addEventListener("click", function() {
-    imgMaior.src = "../../imagens/Produto/Neymar/Neymar(3).png"
+    imgMaior.src = "../../imagens/Produto/Light blue/Light blue (1).png"
 });
 
 imgMenor2.addEventListener("click", function() {
-    imgMaior.src = "../../imagens/Produto/Neymar/Neymar(2).png"
+    imgMaior.src = "../../imagens/Produto/Light blue/Light blue (2).png"
 });
 
 imgMenor3.addEventListener("click", function() {
-    imgMaior.src = "../../imagens/Produto/Neymar/Neymar(1).png"
+    imgMaior.src = "../../imagens/Produto/Light blue/Light blue (3).png"
 });
