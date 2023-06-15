@@ -4,13 +4,13 @@ const imgMenor3 = document.querySelector("#imgMenor3")
 const imgMaior = document.querySelector("#imgMaior")
 
 imgMenor1.addEventListener("click", function() {
-    imgMaior.src = "../../imagens/Produto/Rouge Pur Couture/Rouge Pur Couture (1).png"
+    imgMaior.src = "../../imagens/Produto/Allure/Allure (1).png"
 });
 
 imgMenor2.addEventListener("click", function() {
-    imgMaior.src = "../../imagens/Produto/Rouge Pur Couture/Rouge Pur Couture (2).png"
+    imgMaior.src = "../../imagens/Produto/Allure/Allure (2).png"
 });
 
 imgMenor3.addEventListener("click", function() {
-    imgMaior.src = "../../imagens/Produto/Rouge Pur Couture/Rouge Pur Couture (3).png"
+    imgMaior.src = "../../imagens/Produto/Allure/Allure (3).png"
 });
