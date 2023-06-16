@@ -366,11 +366,16 @@ footer {
     text-decoration: underline;
 }
 
+
+/* comando para arrumar o footer no fim da página em quALQUER OCASIÃO */
 @media (min-height: 831px) {
     footer {
         position: absolute;
     }
 }
+
+
+
 
 @media (max-width: 992px) {
     header ul {
