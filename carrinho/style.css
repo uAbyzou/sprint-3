@@ -101,6 +101,9 @@ main {
     margin-right: 50px;
     display: flex;
     flex-direction: row;
+    overflow-x: scroll;
+    white-space: nowrap;
+    box-sizing: border-box;
 }
 
 .caixa-scrool {
@@ -117,6 +120,248 @@ main {
     border-right: solid 1px black;
 }
 
+.nav-estrelas{
+    display: inline-flex;
+}
+
+.estrela {
+    height: 10px;
+}
+
+/* main-baixo */
+.main-baixo {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-baixo h1 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.conteudo-main-baixo {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+
+
+/* conteúdo que fica na parte de baixo da pag */
+.produto {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.imagem-produto2 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.imagem-produto2 img {
+    height: 150px;
+    width: 150px;
+}
+
+#titulo-produto {
+    margin-left: 12.5%;
+    margin-bottom: 5px;
+}
+
+.input-frete input {
+    height: 35px;
+    width: 200px;
+    border-radius: 13px;
+    border: 1px solid black;
+}
+
+.input-frete a {
+    color: #00A611;
+    border: 1px #00A611 solid;
+    padding: 7px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input-frete a:hover {
+    color: #00c814;
+    border: 1px #00c814 solid;
+}
+
+/* parte q fica a quantidade */
+.quantidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contador {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 0px 5px 0px 5px;
+}
+
+.contador input {
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    padding-left: 13px;
+    border: none;
+    font-size: 20px;
+}
+
+.contador button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#titulo-quantidade {
+    margin-bottom: 50px;
+}
+
+/* parte da entrega e de preço */
+.escrita-frete-preço {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+#frete-7-dias  {
+    color: #00A611;
+}
+
+/* parte da caixa da direita */
+.caixa-direita-cima {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 7px;
+    /* background-color: red; */
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+.escrita2 {
+    text-align: right;
+}
+
+.escrita2 strong {
+    color: #00A611;
+}
+
+.caixa-direita-meio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.escrita4 {
+    text-align: right;
+}
+
+.escrita4 p {
+    font-size: 12px;
+}
+
+.escrita4 span {
+    color: #00A611;
+}
+
+.caixa-direita-baixo {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-direita-baixo a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00A611;
+    padding: 7px 35px 7px 35px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+}
+
+.caixa-direita {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9B2781;
+    font-size: 13px;
+    bottom: 0;
+    width: 100%;
+}
+
+.escrita-footer {
+    line-height: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.esquerda-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.esquerda-footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 13px;
+    margin-left:10px;
+}
+
+.esquerda-footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.esquerda-footer nav ul li a:hover {
+    text-decoration: underline;
+}
+.logo-social {
+    width: 28px;
+    height: 28px;
+}
+
+.links-social {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes-sociais {
+    margin-right: 15px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
 
 
 
