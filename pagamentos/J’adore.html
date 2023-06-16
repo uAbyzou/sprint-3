@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../imagens/Principal/LOGOSITE.png" type="image/x-icon">
+    <title>Pagamento</title>
+</head>
+<body>
+
+    <header>
+        <section>
+            <a href="#"><img src="../imagens/Principal/LOGOSITE.png" alt="LOGO" height="60px"  width="60px"></a>
+            <nav>
+                <div>  
+                    <img src="../imagens/Barra.png" alt="BARRA" width="510px" height="10px" class="barra">
+                        <a href="#"><img src="../imagens/Pagamento/Pagamento.png" alt="CARRO" height="80px" width="80px"></a>
+                </div>
+
+                <ul>
+                    <li>Pagamento</li>
+                    <li>Identificação</li>
+                    <li>Meu Carrinho</li> 
+                </ul>
+            </nav>
+
+            <nav class="img_direita">
+                <a href="#"><img src="../imagens/Principal/coracao.png" alt="coracao" height="38px" width="41px"></a>
+                <a href="#"><img src="../imagens/Perfil.jpg" alt="macaco" height="38px" width="41px" class="macaco"></a>
+                <a href="#"><img src="../imagens/shopping-cart.png" alt="carro" height="38px" width="41px"></a>
+                
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="main_cima">
+            <div class="informacoes">
+                <h1>Endereço de Entrega</h1>
+                <br>
+                <br>
+                <p>Cleberson Pinto Lindo</p>
+                <p>Rua das Belas-Bolas, 666,</p>
+                <p>Sento no Andrê</p>
+                <p>SP - São Paulo</p>
+                <p>CEP 66666666</p>
+                <p><img src="../imagens/Pagamento/Home.png" alt="HOME" width="15px" height="15px"><a href="#">Alterar Endereço de entrega</a></p>
+            </div>
+
+            <div class="caixa">
+                <h1>Resumo do Pedido</h1>
+                
+                <div class="texto1">
+                <p>1 Produto</p>
+                <p>R$ 469,99</p>
+                </div>
+
+                <div class="texto2">
+                <p>Frete</p>
+                <p><strong>grátis</strong></p>
+                </div>
+
+                <br><br>
+
+                <div class="caixa_dentro">
+                    <div class="texto3">
+                    <p><strong>Total</strong></p>
+                    <p> <strong>469,99</strong></p>
+                    </div>
+                    <div class="texto4">
+                    <p>Em até <span>10x sem juros</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_meio1">
+
+                <h1>Opções de frete</h1>
+
+                <br>
+                <br>
+
+        <form action="">                         
+            <div class="frete1">
+                <input type="radio" name="frete" value="receber"><p>receba até 13 de junho <br> por R$6,99</p>
+            </div>
+
+            <div class="frete2">
+                <input type="radio" name="frete" value="agendar"><p>receba - agende  a partir de 06 julho <br> por R$6,99</p>
+            </div>
+                 
+            <div class="frete3">
+                <input type="radio" name="frete" value="retirar"><p>retire na loja a partir de 06 de junho <br> por R$6,99</p>
+            </div>
+        </form> 
+    </section>
+
+    <section class="main_meio2">
+        <h1>Possui cupom ou vale ? </h1> <br>
+        <div>
+            <label for="">digite o cogido do seu cupom ou vale
+                <form>
+                    <input type="text" name="cupom_vale" class="cupom" placeholder="digite aqui">
+                    <button type="submit" name="enviar" class="aplicar">Aplicar</button>
+                </form>
+            </label>
+        </div>
+    </section>
+
+    <section class="main_meio3">
+        <h1>Formas de Pagamento</h1> <br>
+        
+        <form action="">
+            <div class="boleto">
+                <img src="../imagens/Pagamento/barras.png" alt="codBarra" height="60px" width="60px">
+                <label for="">Boleto</label>
+                <input type="radio" name="formaPagamento" value="boleto">
+            </div>
+    
+            <div class="cartao">
+                <img src="../imagens/Pagamento/card.png" alt="cartao" height="60px" width="60px">
+                <label for="">Cartão</label>
+                <input type="radio" name="formaPagamento" value="cartao">
+            </div>
+    
+            <div class="pix">
+                <img src="../imagens/Pagamento/pix.png" alt="pix" height="60px" width="60px">
+                <label for="">Pix</label>
+                <input type="radio" name="formaPagamento" value="pix">
+            </div>
+        </form>
+    </section>
+
+    <section class="main_meio4">
+        <form action="" class="card">
+            <input type="radio" name="card" value="card">
+            <img src="../imagens/Pagamento/cartao.png" alt="card" height="60px" width="85px">
+            <p>6666666666666666</p>
+        </form>
+
+        <div class="infoCard">
+            <label for="">Codigo de segurança
+                <form action="" class="codSeguranca">
+                    <input type="password" name="codSeguranca" class="senha_3dig" minlength="3" maxlength="3" required placeholder="digite aqui">
+                    <img src="../imagens/Pagamento/codseguranca.png" alt="" height="30px" width="40px">
+                    3 três últimos digitos no fundo do cartão
+                </form>
+            </label>
+
+            <label for="">Número de parcelas
+                <div class="parcelas">
+                    <p>1x de R$469,99</p>
+                    <img src="../imagens/Principal/setaBaixo.png" alt="seta" height="15px" width="15px">
+                </div>
+            </label>
+        </div>
+
+        <div class="compra">
+            <div class="compra_texto">
+            <p><strong>Total:</strong></p>
+            <p>R$469,99</p>
+            </div>
+            <br>
+            <input type="submit" value="Fechar Pedido" class="butao">
+        </div>        
+    </section>
+</main>
+
+
+    
+</body>
+</html>
