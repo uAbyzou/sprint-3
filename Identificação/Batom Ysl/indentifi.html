@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../imagens/Principal/LOGOSITE.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <a href="../../index.html"><img src="../../imagens/Principal/LOGOSITE.png" alt="logo" width="60px" height="60px" id="logoSite"></a>
+        </div>
+
+        <div class="div-hamburguer">
+            <a href="#"><img src="../../imagens/icons8-menu-arredondado-50.png" alt="hamburguer" class="hamburguer" id="menu-hamburguer"></a>
+        </div>
+
+        <ul class="desliga" id="lista-perfil">
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Contatos</a></li>
+            <li><a href="../../login/login.html">Logout</a></li>
+
+            <div class="div-X-perfil">
+                <a href="#"><img src="../../imagens/icons8-x-48.png" alt="X" id="fechar-perfil" class="fechar-perfil"></a>
+            </div>
+        </ul>
+
+        <ul class="menu" id="menu1">
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#">Perfumes</a></li>
+            <li><a href="#">Acessórios de Pele</a></li>
+            <li><a href="#">Maquiagem</a></li>
+            <li><a href="#">Bem-estar</a></li>
+            <li><a href="#">Marca</a></li>
+            <li><a href="#">Géis</a></li>
+            <li><a href="#">Loções</a></li>
+
+            <div class="div-X">
+                <a href="#"><img src="../../imagens/icons8-x-48.png" alt="X" id="fechar" class="fechar"></a>
+            </div>
+        </ul>
+
+        <div>
+            <ul class="lista-icons-header">
+                <li><a href="#"><img src="../../imagens/Principal/coracao.png" alt="coracao" class="icon-header"></a></li>
+                <li><a href="#"><img src="../../imagens/Perfil.jpg" alt="perfil" class="icon-header" id="perfil"></a></li>
+                <li><a href="#"><img src="../../imagens/shopping-cart.png" alt="carrinho" class="icon-header"></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="teto">
+        <p class="cadastrar">Cadastrar endereço de entrega</p>
+        <p><a href="#">Voltar</a></p>
+        </div>
+
+        <br>
+
+        <div class="dados">
+
+            <!-- CEP -->
+            <div class="cep">
+                <p class="texto"><span>*</span>CEP</p>
+                <input type="search" name="cep" placeholder="Digite seu CEP" name="CEP"><a href="https://buscacepinter.correios.com.br/app/endereco/index.php"><img src="../../imagens/lupa.png" alt="lupa" class="lupa"></a>
+            </div>
+            <p class="ajuda"><a href="https://buscacepinter.correios.com.br/app/endereco/index.php" class="ajuda-1">Não sei meu cep</a></p>
+            <!-- CEP -->
+            
+
+            <div class="dois-linha">
+            <!-- Estado -->
+            <div class="estado">
+                <p class="texto"><span>*</span>Estado</p>
+                <input type="text" name="estado">
+            </div>
+            <!-- Estado -->
+
+
+            <!-- Cidade -->
+            <div class="cidade">
+                <p class="texto"><span>*</span>Cidade</p>
+                <input type="text" name="cidade">
+            </div>
+            <!-- Cidade -->
+            </div>
+            
+
+            <div class="uma-linha">
+            <!-- Bairro -->
+            <div class="bairro">
+                <p class="texto"><span>*</span>Bairro</p>
+                <input type="text" name="bairro">
+            </div>
+            <!-- Bairro -->
+
+
+            <!-- Rua / avenida -->
+            <div class="rua">
+                <p class="texto"><span>*</span>Rua / avenida</p>
+                <input type="text" name="rua">
+            </div>
+            <!-- Rua / avenida -->
+            </div>
+            
+
+            <div class="dois-linha">
+            <!-- Número -->
+            <div class="numero">
+                <p class="texto"><span>*</span>Número da residência</p>
+                <input type="tel" name="numero">
+            </div>
+            <!-- Número -->
+
+                
+
+            <!-- Complemento -->
+            <div class="complemento">
+                <p class="texto">Complemento<span class="opcional"> (opcional)</span></p>
+                <input type="text" name="complemento">
+            </div>
+            <!-- Complemento -->
+            </div>
+        
+
+            <div class="uma-linha">
+             <!-- Ponto de referência -->
+             <div class="ponto-de-referencia">
+                <p class="texto"><span>*</span>Ponto de referência</p>
+                <input type="text" name="ponto-de-referencia">
+            </div>
+            <!-- Ponto de referência -->
+            </div>
+
+
+            <div class="dois-linha">
+             <!-- Nome -->
+             <div class="nome">
+                <p class="texto"><span>*</span>Nome completo</p>
+                <input type="text" name="nome">
+            </div>
+            <!-- Nome -->
+
+             <!-- CPF -->
+             <div class="cpf">
+                <p class="texto">CPF<span class="opcional"> (opcional)</span></p>
+                <input type="text" name="cpf">
+            </div>
+            <!-- CPF -->
+            </div>
+            
+        </div>
+
+        <br>
+        <!-- botão -->
+        <a href="../../pagamentos/Batom Ysl.html" class="botao"><p class="entrega">Entregar nesse endereço</p></a>
+    </main>
+
+    <!-- _______________________________________ -->
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="esquerda-footer">
+            <nav>
+                <ul>
+                    <li><a href="#">Regras da comunidade</a></li>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Serviços Online</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+            </nav>
+
+            <div class="escrita-footer">
+                <p>Política de privacidade | Termos legais | Acordo de subscrição | Reembolsos | Cookies</p>
+                <p>@2023 Style Records. Todos os direitos reservados, Todas as marcas comerciais são propriedades dos respectivos proprietários do Brasil.</p>
+            </div>
+        </div>
+
+        <div class="direita-footer">
+            <nav>
+                <ul class="redes-sociais">
+                    <div class="links-social">
+                        <img src="../imagens/Twitter logo.png" alt="twitter" class="logo-social">
+                        <li><a href="https://twitter.com/home">@Style_records</a></li>
+                    </div>
+
+                    <div class="links-social">
+                        <img src="../imagens/Facebook logo.png" alt="facebook" class="logo-social">
+                        <li><a href="https://www.facebook.com">Style Records</a></li>
+                    </div>
+
+                    <div class="links-social">
+                        <img src="../imagens/Instagram logo.png" alt="instagram" class="logo-social">
+                        <li><a href="https://www.instagram.com">Style_Records</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="../script2.js"></script>
+</body>
+</html>
