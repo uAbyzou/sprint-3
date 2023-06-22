@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5% 2px 5%;
+    background-color: #AB238D;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.icon-header {
+    width: 41px;
+    height: 38px;
+}
+
+#perfil {
+    border-radius: 100px;
+}
+
+.div-logo{
+    display: flex;
+    justify-content: center;
+    width: 173px;
+}
+
+#menu-hamburguer {
+    display: none;
+}
+
+.fechar {
+    display: none;
+}
+
+/* Menu que aparece quando clica na imagem de perfil */
+.menu-perfil {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #8f508b;
+    color: black;
+    top: 8%;
+    right: 6.3%;
+    padding: 25px;
+    border-radius: 5px;
+    height: 110px;
+}
+
+#fechar-perfil {
+    width: 19px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.desliga {
+    display: none;
+}
+
+/* main */
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    /* background-color: red; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 70%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+#titulo-main {
+    text-align: right;
+    font-weight: 400;
+}
+
+.seila img {
+    height: 40px;
+}
+
+.seila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3EC34B;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.seila label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.confirmacao-pedido {
+    background-color: #E0FFE3;
+    border: 1px solid #085F10;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.confirmacao-pedido p {
+    font-size: 13px;
+}
+
+.informacoes-pedidos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+
+.informacoes-pedidos label {
+    font-size: 13px;
+}
+
+.informacoes-pedidos p {
+    font-size: 15px;
+}
+
+.informacoes-pedidos li {
+    font-size: 15px;
+}
+
+#butao {
+    text-decoration: none;
+    margin: auto;
+    font-size: 23px;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9B2781;
+    font-size: 13px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.escrita-footer {
+    line-height: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.esquerda-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.esquerda-footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 13px;
+    margin-left:10px;
+}
+
+.esquerda-footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.esquerda-footer nav ul li a:hover {
+    text-decoration: underline;
+}
+.logo-social {
+    width: 28px;
+    height: 28px;
+}
+
+.links-social {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes-sociais {
+    margin-right: 15px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    /* __________Header__________ */
+    header ul {
+        gap: 15px;
+        height: 50px;
+    }
+
+    .div-logo {
+        width: 122.25px;
+    }
+
+    .lista-icons-header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icon-header {
+        width: 30.75px;
+        height: 28.5px;
+    }
+
+    #logoSite {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* menu do header */
+    .menu {
+        display: none;
+    }
+
+    .menu-ativado {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #960C77;
+        height: 300px;
+        width: 95%;
+        top: 0.5%;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 7px;
+        border: 1.5px solid #d108a5;
+    }
+
+    .desactive {
+        display: none;
+    }
+
+    .div-hamburguer {
+        display: flex;
+        width: 122.25px;
+        justify-content: center;
+    }
+
+    #menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #fechar {
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        filter: invert(100%);
+    }
+
+    .menu-perfil {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #8f508b;
+        color: black;
+        top: 8%;
+        right: 6.3%;
+        padding: 25px;
+        border-radius: 5px;
+        height: 110px;
+        gap: 25px;
+    }
+
+
+}
