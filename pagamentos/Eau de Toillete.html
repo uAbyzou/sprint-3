@@ -11,15 +11,15 @@
 <body>
 
     <header>
-        <section>
+        <section class="secaoHeader">
             <a href="../index.html"><img src="../imagens/Principal/LOGOSITE.png" alt="LOGO" height="60px"  width="60px"></a>
-            <nav>
-                <div>  
+            <nav class="imgnav">
+                <div class="barraCarro">  
                     <img src="../imagens/Barra.png" alt="BARRA" width="510px" height="10px" class="barra">
-                        <a href="../carrinho/Barcelona/barcelona-carrinho.html"><img src="../imagens/Pagamento/Pagamento.png" alt="CARRO" height="80px" width="80px"></a>
+                        <a href="#"><img src="../imagens/Pagamento/Pagamento.png" alt="CARRO" height="80px" width="80px"></a>
                 </div>
 
-                <ul>
+                <ul class="ancoraTx">
                     <li>Pagamento</li>
                     <li>Identificação</li>
                     <li>Meu Carrinho</li> 
@@ -46,7 +46,7 @@
                 <p>Sento no Andrê</p>
                 <p>SP - São Paulo</p>
                 <p>CEP 66666666</p>
-                <p><img src="../imagens/Pagamento/Home.png" alt="HOME" width="15px" height="15px"><a href="../Identificação/Barcelona/indentifi.html">Alterar Endereço de entrega</a></p>
+                <p><img src="../imagens/Pagamento/Home.png" alt="HOME" width="15px" height="15px"><a href="#">Alterar Endereço de entrega</a></p>
             </div>
 
             <div class="caixa">
@@ -78,96 +78,142 @@
 
         <section class="main_meio1">
 
-                <h1>Opções de frete</h1>
+            <h1>Opções de frete</h1>
 
-                <br>
-                <br>
-
-        <form action="">                         
-            <div class="frete1">
-                <input type="radio" name="frete" value="receber"><p>receba até 13 de junho <br> por R$6,99</p>
-            </div>
-
-            <div class="frete2">
-                <input type="radio" name="frete" value="agendar"><p>receba - agende  a partir de 06 julho <br> por R$6,99</p>
-            </div>
-                 
-            <div class="frete3">
-                <input type="radio" name="frete" value="retirar"><p>retire na loja a partir de 06 de junho <br> por R$6,99</p>
-            </div>
-        </form> 
-    </section>
-
-    <section class="main_meio2">
-        <h1>Possui cupom ou vale ? </h1> <br>
-        <div>
-            <label for="">digite o cogido do seu cupom ou vale
-                <form>
-                    <input type="text" name="cupom_vale" class="cupom" placeholder="digite aqui">
-                    <button type="submit" name="enviar" class="aplicar">Aplicar</button>
-                </form>
-            </label>
-        </div>
-    </section>
-
-    <section class="main_meio3">
-        <h1>Formas de Pagamento</h1> <br>
-        
-        <form action="">
-            <div class="boleto">
-                <img src="../imagens/Pagamento/barras.png" alt="codBarra" height="60px" width="60px">
-                <label for="">Boleto</label>
-                <input type="radio" name="formaPagamento" value="boleto">
-            </div>
-    
-            <div class="cartao">
-                <img src="../imagens/Pagamento/card.png" alt="cartao" height="60px" width="60px">
-                <label for="">Cartão</label>
-                <input type="radio" name="formaPagamento" value="cartao">
-            </div>
-    
-            <div class="pix">
-                <img src="../imagens/Pagamento/pix.png" alt="pix" height="60px" width="60px">
-                <label for="">Pix</label>
-                <input type="radio" name="formaPagamento" value="pix">
-            </div>
-        </form>
-    </section>
-
-    <section class="main_meio4">
-        <form action="" class="card">
-            <input type="radio" name="card" value="card">
-            <img src="../imagens/Pagamento/cartao.png" alt="card" height="60px" width="85px">
-            <p>6666666666666666</p>
-        </form>
-
-        <div class="infoCard">
-            <label for="">Codigo de segurança
-                <form action="" class="codSeguranca">
-                    <input type="password" name="codSeguranca" class="senha_3dig" minlength="3" maxlength="3" required placeholder="digite aqui">
-                    <img src="../imagens/Pagamento/codseguranca.png" alt="" height="30px" width="40px">
-                    3 três últimos digitos no fundo do cartão
-                </form>
-            </label>
-
-            <label for="">Número de parcelas
-                <div class="parcelas">
-                    <p>1x de R$149,99</p>
-                    <img src="../imagens/Principal/setaBaixo.png" alt="seta" height="15px" width="15px">
-                </div>
-            </label>
-        </div>
-
-        <div class="compra">
-            <div class="compra_texto">
-            <p><strong>Total:</strong></p>
-            <p>R$149,99</p>
-            </div>
             <br>
-            <input type="submit" value="Fechar Pedido" class="butao">
-        </div>        
-    </section>
-</main>
+            <br>
+
+    <form action="" class="fretes">                         
+        <div class="frete1">
+            <input type="radio" name="frete" value="receber"><p>receba até 13 de junho <br> por R$6,99</p>
+        </div>
+
+        <div class="frete2">
+            <input type="radio" name="frete" value="agendar"><p>receba - agende  a partir de 06 julho <br> por R$6,99</p>
+        </div>
+             
+        <div class="frete3">
+            <input type="radio" name="frete" value="retirar"><p>retire na loja a partir de 06 de junho <br> por R$6,99</p>
+        </div>
+    </form> 
+</section>
+
+<section class="main_meio2">
+    <h1>Possui cupom ou vale ? </h1> <br>
+    <div>
+        <label for="">digite o cogido do seu cupom ou vale
+            <form>
+                <input type="text" name="cupom_vale" class="cupom" placeholder="digite aqui">
+                <button type="submit" name="enviar" class="aplicar">Aplicar</button>
+            </form>
+        </label>
+    </div>
+</section>
+
+<section class="main_meio3">
+    <h1>Formas de Pagamento</h1> <br>
+    
+    <form action="" class="imgformPag">
+
+        <div class="boleto">
+            <img src="../imagens/Pagamento/barras.png" alt="codBarra" height="60px" width="60px">
+            <p>Boleto</p>
+            <input type="radio" name="formaPagamento" value="boleto">
+        </div>
+
+        <div class="cartao">
+            <img src="../imagens/Pagamento/card.png" alt="cartao" height="60px" width="60px">
+            <p>Cartão</p>
+            <input type="radio" name="formaPagamento" value="cartao">
+        </div>
+
+        <div class="pix">
+            <img src="../imagens/Pagamento/pix.png" alt="pix" height="60px" width="60px">
+            <p>Pix<p>
+            <input type="radio" name="formaPagamento" value="pix">
+        </div>
+    </form>
+</section>
+
+<section class="main_meio4">
+
+    <div action="" class="card">
+        <input type="radio" name="card" value="card">
+        <img src="../imagens/Pagamento/cartao.png" alt="card" height="60px" width="85px">
+        <p>6666666666666666</p>
+    </div>
+
+    <div class="infoCard">
+        <label for="">Codigo de segurança
+            <form action="" class="codSeguranca">
+                <input type="password" name="codSeguranca" class="senha_3dig" minlength="3" maxlength="3" required placeholder="digite aqui">
+                <img src="../imagens/Pagamento/codseguranca.png" alt="" height="30px" width="40px">
+                3 três últimos digitos no fundo do cartão
+            </form>
+        </label>
+
+    </div>
+    
+    <div class="nParcela">
+        <label for="" class="tudoParcela">Número de parcelas
+            <div class="parcelas">
+                <p>1x de R$149,99</p>
+                <img src="../imagens/Principal/setaBaixo.png" alt="seta" height="15px" width="15px">
+            </div>
+        </label>
+    </div>
+    
+
+    <div class="compra">
+        <div class="compra_texto">
+        <p><strong>Total:</strong></p>
+        <p>R$149,99</p>
+        </div>
+        <br>
+        <a href="#"><input type="submit" value="Fechar Pedido" class="butao"></a>
+            </div>        
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="esquerda-footer">
+            <nav>
+                <ul>
+                    <li><a href="#">Regras da comunidade</a></li>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Serviços Online</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+            </nav>
+
+            <div class="escrita-footer">
+                <p>Política de privacidade | Termos legais | Acordo de subscrição | Reembolsos | Cookies</p>
+                <p>@2023 Style Records. Todos os direitos reservados, Todas as marcas comerciais são propriedades dos respectivos proprietários do Brasil.</p>
+            </div>
+        </div>
+
+        <div class="direita-footer">
+            <nav>
+                <ul class="redes-sociais">
+                    <div class="links-social">
+                        <img src="../imagens/Twitter logo.png" alt="twitter" class="logo-social">
+                        <li><a href="https://twitter.com/stylerecords23">@Stylerecords23</a></li>
+                    </div>
+
+                    <div class="links-social">
+                        <img src="../imagens/Facebook logo.png" alt="facebook" class="logo-social">
+                        <li><a href="https://www.facebook.com/profile.php?id=100093182265697">Style Records</a></li>
+                    </div>
+
+                    <div class="links-social">
+                        <img src="../imagens/Instagram logo.png" alt="instagram" class="logo-social">
+                        <li><a href="https://www.instagram.com/stylerecords2023/">@Stylerecords2023</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
 
     
